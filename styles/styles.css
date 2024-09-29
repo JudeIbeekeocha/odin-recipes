@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+ul{
+    padding: 0px;
+}
+.header{
+    text-align: center;
+    background-color: rgb(173, 172, 172);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-bottom: 1px solid black;
+}
+.main-links{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.item{
+    /* margin-left: 20px; */
+    list-style: none;
+    width:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.anchor:hover{
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
